@@ -13,7 +13,7 @@ import Index from './routes';
 
 const router = createBrowserRouter([
   {
-    path: '/dream-diary/',
+    path: '/',
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
@@ -43,7 +43,7 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], {basename: "/dream-diary"});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
