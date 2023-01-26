@@ -13,7 +13,7 @@ import Index from './routes';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/dream-diary/',
     element: <Root />,
     errorElement: <ErrorPage />,
     loader: rootLoader,
